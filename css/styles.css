@@ -1,0 +1,182 @@
+#title {
+    background-color: #ff4c68;
+    position: relative;
+}
+
+body{
+    font-family: 'Montserrat light';
+}
+
+h1 {
+    font-family:'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+h2 {
+    font-family:'Montserrat';
+    font-size: 2.5rem;
+}
+h3 {
+    font-family:'Montserrat';
+    font-size: 1rem;
+
+}
+
+p {
+    color: grey;
+}
+
+.container-fluid {
+    padding: 3% 8%;
+
+}
+
+.navbar-brand {
+    padding-left: 25px;
+    font-family:'ubuntu';
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+}
+.navbar {
+    padding-bottom: 4.5rem;
+    font-size: larger;
+}
+
+.nav-item {
+    padding: 0 16px;
+}
+.nav-link {
+    font-family: 'montserrat light';
+}
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+.image {
+    width: 60%;
+    position: relative;
+    left: 120px;
+
+}
+#features{
+    padding: 12% 12%;
+    background-color: white;
+    position: relative;
+    bottom: 100px;
+    z-index: 1;
+}
+.iconn :hover {
+    color: #ff4c68 ;
+}
+.featuresbox {
+    text-align: center;
+    padding: 0% 7% 0% 7%;
+}
+#testimonials {
+    text-align: center;
+    background-color: tomato;
+    color: white;
+    padding-top: 50px;
+    position: relative;
+    bottom: 100px;
+    z-index: 1;
+    
+}
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+    padding: 2% 10%;
+    position: relative;
+    bottom: 80px;
+}
+
+.find {
+    padding: 5% 10% 0%;
+    font-family: 'montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;   
+}
+
+
+.carousel-item {
+    padding: 2% 18%;
+}
+.dogg {
+    width: 100px;
+    border-radius: 100%;
+    margin: 60px 30px 5px 30px;
+}
+#press {
+    text-align: center;
+    background-color: tomato;
+    color: white;
+    padding: 2% 12% 2%;
+    position: relative;
+    bottom: 100px;
+}
+.press1 {
+    width: 20%;
+}
+.woman {
+    width: 100px;
+    border-radius: 100%;
+    margin: 60px 30px 30px 30px; 
+}
+
+#pricing {
+    padding: 5% 16%;
+    position: relative;
+    bottom: 100px;
+}
+.pricinghead {
+    padding: 0% 16% 5%;
+    text-align: center;
+}
+.pricecolumn {
+    padding: 0% 2%;
+}
+
+#footer {
+text-align: center;
+position: relative;
+bottom: 30px;
+}
+
+.fa-brands {
+    margin: 10px
+}
+.fa-solid {
+    margin: 10px;
+}
+
+@media (max-width: 900px){
+    #title{
+        text-align: center;
+    }
+    .image {
+        width: 60%;
+        position: relative;
+        left: 1rem;
+    }
+    #features{
+        position: relative;
+        bottom: 20px;
+    }
+
+    #testimonials {
+        position: relative;
+        bottom: 20px;
+    }
+    
+    #press {
+        position: relative;
+        bottom: 20px;
+    }
+    #pricing {
+        position: relative;
+        bottom: 20px;
+    }
+
+}
